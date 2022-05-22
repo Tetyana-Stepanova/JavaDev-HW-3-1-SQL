@@ -45,3 +45,13 @@ values ('MusicApp', 'application for listening music', 2, 4),
        ('WebApp', 'create website for online store', 5, 2),
        ('SearchApp', 'application for searching', 1, 1),
        ('SecurityApp', 'application for security payments online', 4, 5);
+       
+       insert into developers_skills (developers_id, skills_id)
+values (1, 1), (2, 9), (3, 3), (4, 6), (5, 11), (6, 2), 
+       (1, 4), (2, 6), (3, 6), (3, 7), (4, 8), (5, 8), (6, 5), (4, 1);
+
+insert into developers_projects (developers_id, project_id)
+values (1, 1), (1, 3), (1, 6), (2, 10), (2, 4), (3, 2), (3, 6),
+       (3, 4), (4, 8), (4, 5), (5, 9), (5, 7), (6, 8), (6, 7),
+	   (1, 9), (3, 10), (6, 3), (5, 2), (5, 1), (4, 2);
+
